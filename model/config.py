@@ -71,11 +71,11 @@ class Config():
     use_pretrained = True
 
     # dataset
-    # filename_dev = "data/coNLL/eng/eng.testa.iob"
-    # filename_test = "data/coNLL/eng/eng.testb.iob"
-    # filename_train = "data/coNLL/eng/eng.train.iob"
+    filename_dev = "..\\Run1\\data\\dev.data"
+    filename_test = "..\\Run1\\data\\test.data"
+    filename_train = "..\\Run1\\data\\train.data"
 
-    filename_dev = filename_test = filename_train = "data/test.txt" # test
+    #filename_dev = filename_test = filename_train = "data/test.txt" # test
 
     max_iter = None # if not None, max number of examples in Dataset
 
